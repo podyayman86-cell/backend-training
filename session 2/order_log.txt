@@ -5,3 +5,26 @@ Order 1 is ready
 Order 5 is ready
 Order 4 is ready
 Order 9 is ready
+Order -3 failed: Invalid order
+Order 1 is ready
+Order 2 is ready
+Order 4 is ready
+Order 5 is ready
+Order 9,5,8 is ready
+Order -3 failed: Invalid order
+Order 1 is ready
+Order 4 is ready
+Order 2 is ready
+Order 5 is ready
+Order 90 is ready
+Order 77 is ready
+Order 55 is ready
+Order -3 failed: Invalid order
+Order 1 is ready
+Order 2 is ready
+Order 4 is ready
+Order 5 is ready
+Order 90 is ready
+Order 77 is ready
+Order 55 is ready
+Order 800 is ready

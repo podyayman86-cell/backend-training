@@ -12,7 +12,11 @@ app.post("/createorder", (req, res) => {
     if (functions.orderStatus.find(o => o.order === order)) {
         return res.status(400).send("Order already exists");
     }
-    functions.processBatch([order]);
+    if (Array.isArray(order)) {
+        functions.processBatch(order);
+    } else {
+        functions.processBatch([order]);
+    }
     res.send("Order created");
  })
 app.get("/checkorder/:orderId", (req, res) => {
